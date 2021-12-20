@@ -12,7 +12,7 @@ The files in this repository can be used as a [GitHub action][2] or locally.
 - (Optional) Update `linting.yml` styles and config files as necessary.
 - (Optional) Add your custom `.vale.ini` file to your repository's root directory.
 
-Example of linting with GitHub actions:
+Example of linting with GitHub actions:<br>
 ![GitHub actions linting][4]
 
 ### Local
@@ -32,7 +32,7 @@ Example of linting with GitHub actions:
     .vale.ini       # optional
     ```
 
-Example of local linting with VS Code:
+Example of local linting with VS Code:<br>
 ![VS Code linting][9]
 
 ## Development
