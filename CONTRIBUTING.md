@@ -6,7 +6,7 @@ This document provides some basic guidelines for contributing to this repository
 
 ## Submitting issues
 
-Github issues are welcome, feel free to submit style requests! Make sure to add enough details to explain your use case. Are you having an issue with the Datadog product? Contact [Datadog Support][1].
+GitHub issues are welcome, so feel free to submit style requests! Make sure to add enough details to explain your use case. Are you having an issue with the Datadog product? Contact [Datadog Support][1].
 
 ## Pull Requests
 
@@ -14,7 +14,7 @@ Have you updated an existing rule or want to propose a rule for the [Documentati
 
 In order to ease/speed up our review, here are some items you can check for when submitting your pull request:
 
-- Keep commits small and focused, rebase your branch if needed.
+- Keep commits small and focused, and rebase your branch if needed.
 - Write meaningful commit messages and pull request titles that are concise but explanatory.
 
 Our CI is not public, so it may be difficult to understand why your pull request status is failing. Make sure that all tests pass locally, and we'll try to sort it out in our CI.
