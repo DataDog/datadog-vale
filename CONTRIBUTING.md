@@ -17,7 +17,6 @@ In order to ease/speed up our review, here are some items you can check for when
 - Keep commits small and focused, and rebase your branch if needed.
 - Write meaningful commit messages and pull request titles that are concise but explanatory.
 
-Our CI is not public, so it may be difficult to understand why your pull request status is failing. Make sure that all tests pass locally, and we'll try to sort it out in our CI.
 
 ## Usage
 
