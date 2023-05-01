@@ -1,8 +1,0 @@
-extends: existence
-message: Don't use words like '%s' in the documentation.
-level: warning
-code: false
-ignorecase: true
-tokens:
-  - please
-  - easy
