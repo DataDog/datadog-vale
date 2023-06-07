@@ -4,14 +4,14 @@ link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#pron
 level: warning
 nonword: true
 tokens:
-  - (?:^|\s)I\s
-  - (?:^|\s)I,\s
+  - (?<=^|\s)I(?=\s)
+  - (?<=^|\s)I,(?=\s)
   - \bI'm\b
-  - \s[Mm]e\b
-  - \s[Mm]y\b
-  - \s[Mm]ine\b
-  - \s[Ww]e\b
+  - (?<=\s)[Mm]e\b
+  - (?<=\s)[Mm]y\b
+  - (?<=\s)[Mm]ine\b
+  - (?<=\s)[Ww]e\b
   - we'(?:ve|re)
-  - \s[Uu]s\b
-  - \s[Oo]ur\b
+  - (?<=\s)[Uu]s\b
+  - (?<=\s)[Oo]ur\b
   - \blet's\b
