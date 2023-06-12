@@ -9,4 +9,4 @@ action:
 swap:
   '\b(?:eg|e\.g\.|eg\.)[\s,]': for example
   '\b(?:ie|i\.e\.|ie\.)[\s,]': that is
-  '\b(?:etc)[\s\n,.]': and so on
+  '\b(?:etc)[\s\n,.]': and more
