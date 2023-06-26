@@ -5,7 +5,8 @@ level: warning
 # in a sentence.
 #
 # If there are more than 25, we'll flag it.
-scope: text - code
+scope: sentence
 ignorecase: false
 max: 25
 token: (\w+)
+tokenIgnores: \{\{<<\s*img\s+src="[^"]*"\s+alt="[^"]*"\s*>}}
