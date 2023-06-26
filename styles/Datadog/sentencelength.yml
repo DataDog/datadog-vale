@@ -5,7 +5,8 @@ level: warning
 # in a sentence.
 #
 # If there are more than 25, we'll flag it.
-scope: sentence
+disable: true
+scope: text.html.markdown meta.tag.other.html 
 ignorecase: false
 max: 25
 token: (\w+)
