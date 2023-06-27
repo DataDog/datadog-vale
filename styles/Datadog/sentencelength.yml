@@ -9,3 +9,4 @@ scope: sentence
 ignorecase: false
 max: 25
 token: (\w+)
+tokenIgnores: \{\{<<\s*img\s+src="[^"]*"\s+alt="[^"]*"\s*>}}
