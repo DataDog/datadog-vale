@@ -12,29 +12,48 @@ swap:
   'a number of': few|several|many
   'and/or': 'and|or|either or'
   'back end': backend
-  'Datadog app': 'Datadog|Datadog site'
-  'Datadog application': 'Datadog|Datadog site'
+  'bear in mind': keep in mind
+  'below|above|down|up': the following|the next|previous
+  'Create a new': Create a|Create an
+  'culprit': cause
+  'Datadog app|Datadog application': 'Datadog|Datadog site'
   'Datadog product': 'Datadog|Datadog service'
+  'drill down|drilling down|drill into|drilling into': examine|investigate|analyze
+  'figure out': 'determine'
+  'fine tune|fine-tune': customize|optimize|refine
+  'for the most part': generally|usually
   'front end': 'frontend'
+  'highly|very': ''
+  'hit': click|select
+  'in order to': 'to'
+  'keep in mind': consider
+  'left up to': determined by
+  'let's assume': assuming|for example, if
+  'multi-alert': 'multi alert'
   'Note that': '**Note**:'
-  'please': ''
-  'easy': ''
-  'easily': ''
-  'just': ''
-  'quickly': ''
-  'simple': ''
-  'simply': ''
+  'obviously|obvious': ''
+  'on the fly': 'real-time|real time'
+  'once': after|one time
+  'play a hand': influence
+  'please|just': ''
+  'easily|easy': ''
+  'quickly|quick': ''
+  'screen board': screenboard
+  'simply|simple': ''
+  'single pane of glass': single view|single place|single page
+  'slice and dice': filter and group
+  'stand for': reporesents|means
   'reenable': re-enable
   'run time': runtime
-  'refer to|visit': see|read
-  'screen board': screenboard
+  'refer to|visit': see|read|follow
   'time board': timeboard
   'time series': timeseries
   'toplist': top list
   'tradeoff': 'trade-off'
-  'turnkey': turn-key
+  'turnkey': ready to use
+  'under the hood': ''
   'utilize': use
   'via': with|through
+  'visit': see|read
   'webserver': 'web server'
   'web site': 'website'
-  'multi-alert': 'multi alert'
