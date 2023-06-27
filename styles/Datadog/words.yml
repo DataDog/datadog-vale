@@ -33,7 +33,7 @@ swap:
   'Note that': '**Note**:'
   'obviously|obvious': ''
   'on the fly': 'real-time|real time'
-  'once': after|one time
+  'once': after
   'play a hand': influence
   'please|just': ''
   'easily|easy': ''
@@ -42,7 +42,7 @@ swap:
   'simply|simple': ''
   'single pane of glass': single view|single place|single page
   'slice and dice': filter and group
-  'stand for': reporesents|means
+  'stand for': represents|means
   'reenable': re-enable
   'run time': runtime
   'refer to|visit': see|read|follow
