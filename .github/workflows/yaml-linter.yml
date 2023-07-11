@@ -1,0 +1,11 @@
+name: YAML Linter
+on:
+  pull_request:
+    paths: ['**/*.yaml', '**/*.yml']
+
+jobs:
+    Linter:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v3
+        - uses: ibiqlik/action-yamllint@v3
