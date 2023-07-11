@@ -12,9 +12,13 @@ jobs:
       with:
         config_data: |
           extends: default
+          ignore: |
+            examples/linting.yml
+            .github/workflows/**/*
           rules:
             document-start: disable
             new-line-at-end-of-file: disable
+            truthy: disable
             line-length: disable
             empty-lines:
               level: warning
