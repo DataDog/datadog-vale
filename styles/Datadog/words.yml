@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#words-and-phrases"
-ignorecase: true
+ignorecase: false
 level: warning
 action:
   name: replace
@@ -15,7 +15,7 @@ swap:
   'bear in mind': 'keep in mind'
   'Create a new': 'Create a|Create an'
   'culprit': 'cause'
-  'Datadog app|Datadog application': 'Datadog|Datadog site'
+  '(?:Datadog app|Datadog application)': 'Datadog|Datadog site'
   'Datadog product': 'Datadog|Datadog service'
   'drill down|drilling down|drill into|drilling into': 'examine|investigate|analyze'
   'figure out': 'determine'
