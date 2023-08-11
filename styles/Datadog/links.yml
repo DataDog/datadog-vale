@@ -2,9 +2,13 @@ extends: existence
 message: "Avoid vague text in links like '%s' unless you can pair it with more descriptive text."
 link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#links'
 ignorecase: true
-scope: link
+scope: raw
+nonword: true
 level: warning
 tokens:
-  - here
-  - this
-  - ^page$
+  - \[here\]\([^)]+\)
+  - \[this\]\([^)]+\)
+  - \[page\]\([^)]+\)
+  - <a\s*href\s*=\s*".*?"\s*>here</a>
+  - <a\s*href\s*=\s*".*?"\s*>this</a>
+  - <a\s*href\s*=\s*".*?"\s*>page</a>
