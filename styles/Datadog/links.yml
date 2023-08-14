@@ -1,11 +1,11 @@
-extends: existence
+extends: substitution
 message: "Avoid vague text in links like '%s' unless you can pair it with more descriptive text."
 link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#links'
 ignorecase: true
 scope: raw
 nonword: true
 level: warning
-tokens:
-  - \[(this|here|page|this page)\]\(.*?\)
-  - <a\s*href\s*=\s*".*?".*?>\s*(this|here|page)\s*</a>
-  - <a\s*href\s*=\s*".*?".*?>\s*this page\s*</a>
+
+swap:
+  '\[(here|this|page|this page)\]\(.*?\)': '$1'
+  '<a\s*href\s*=\s*".*?".*?>\s*(here|this|page|this page)\s*</a>': '$1'
