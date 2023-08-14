@@ -6,9 +6,5 @@ scope: raw
 nonword: true
 level: warning
 tokens:
-  - \[here\]\([^)]+\)
-  - \[this\]\([^)]+\)
-  - \[page\]\([^)]+\)
-  - <a\s*href\s*=\s*".*?"\s*>here</a>
-  - <a\s*href\s*=\s*".*?"\s*>this</a>
-  - <a\s*href\s*=\s*".*?"\s*>page</a>
+  - \[(this|here|page)\]\(.*?\)
+  - <a\s*href\s*=\s*".*?".*?>\s*(this|here|page)\s*</a>
