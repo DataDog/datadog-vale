@@ -7,4 +7,6 @@ nonword: true
 level: warning
 tokens:
   - \[(this|here|page)\]\(.*?\)
+  - \[this page\]\(.*?\)
   - <a\s*href\s*=\s*".*?".*?>\s*(this|here|page)\s*</a>
+  - <a\s*href\s*=\s*".*?".*?>\s*this page\s*</a>
