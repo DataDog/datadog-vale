@@ -1,0 +1,64 @@
+extends: capitalization
+message: Rule names should use sentence case
+level: error
+match: $sentence
+exceptions:
+  - 1Password
+  - Advanced Protection
+  - Autoscaling Group
+  - Amazon EC2 Instance
+  - Amazon S3 
+  - API calls
+  - Auth0 Attack Protection
+  - Auth0 Breached Password Detection
+  - Auth0 Brute Force Protection
+  - Auth0 Guardian MFA
+  - Auth0 Suspicious IP Throttling
+  - AWS Cloudtrail GetCallerIdentity
+  - AWS DescribeInstances
+  - AWS IAM User created with AdministratorAccess policy attached
+  - AWS ConsoleLogin
+  - AWS Console login without MFA
+  - AWS GuardDuty
+  - AWS IAM Roles Anywhere
+  - AWS Kinesis Firehose
+  - AWS Lambda    
+  - AWS Network Gateway
+  - AWS Secrets Manager
+  - AWS Systems Manager
+  - AWS Verified Access
+  - AWS VPC Flow Log
+  - Azure Active Directory
+  - Azure AD Identity Protection
+  - Azure AD Privileged Identity Management
+  - CloudTrail
+  - Cloudflare
+  - Cloudflare CASB Finding
+  - Cloudflare L7 DDOS
+  - Crowdstrike Alerts 
+  - Google App Engine
+  - Google Cloud
+  - Google Cloud IAM Role updated
+  - Google Cloud Storage
+  - Google Cloud Storage Bucket
+  - Google Compute
+  - Google Compute Engine
+  - Google Drive
+  - Google Workspace
+  - IoC
+  - Microsoft 365 Application Impersonation
+  - Microsoft 365 Default or Anonymous
+  - Microsoft 365 E-Discovery
+  - Microsoft 365 Exchange
+  - Microsoft 365 Full Access
+  - Microsoft 365 Inbound Connector
+  - Microsoft 365 OneDrive
+  - Microsoft 365 Security and Compliance
+  - Microsoft 365 SendAs
+  - Microsoft Defender for Cloud
+  - Okta
+  - RDS Snapshot
+  - Tor
+  - TruffleHog
+
+
