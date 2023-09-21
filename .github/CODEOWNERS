@@ -1,1 +1,8 @@
 *  @DataDog/documentation
+
+# Security rules
+
+/styles/CWS-Descriptions/ @Datadog/product-detection-engineering @DataDog/documentation
+/styles/CWS-Names/        @Datadog/product-detection-engineering @DataDog/documentation
+/styles/SIEM-Names/       @Datadog/product-detection-engineering @DataDog/documentation
+/styles/Vocab/Security/   @Datadog/product-detection-engineering @DataDog/documentation
