@@ -1,0 +1,10 @@
+extends: existence
+message: Rule names should avoid weak works like '%s'
+level: error
+ignorecase: true
+link: https://developers.google.com/tech-writing/one/clear-sentences
+tokens:
+  - was
+  - were
+  - is
+  - are

@@ -1,0 +1,8 @@
+extends: substitution
+message: New Value rules should use '%s' instead of '%s'
+level: error
+ignorecase: true
+swap:
+  unrecognized: unfamiliar
+  unusual: unfamiliar
+  new: unfamiliar

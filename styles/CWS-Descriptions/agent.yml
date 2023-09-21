@@ -1,0 +1,6 @@
+extends: substitution
+message: Refer to the 'Datadog %s' instead of the 'Datadog %s'
+level: error
+ignorecase: false
+swap:
+  agent: Agent

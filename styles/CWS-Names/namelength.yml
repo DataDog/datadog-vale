@@ -1,0 +1,6 @@
+extends: occurrence
+message: Rule names should not be longer than 10 words
+level: error
+ignorecase: false
+max: 10
+token: (\w+)
