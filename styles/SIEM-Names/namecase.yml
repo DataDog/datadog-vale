@@ -38,7 +38,7 @@ exceptions:
   - Crowdstrike Alerts
   - Github Advanced Security
   - Github Dependabot
-  - Github Personal Access Token (PAT)
+  - Github Personal Access Token
   - Github Secret Scanning
   - Google App Engine
   - Google Cloud
