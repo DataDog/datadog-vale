@@ -23,6 +23,8 @@ In order to ease and speed up our review, here are some items you can check for 
 - Keep commits small and focused, and rebase your branch if needed.
 - Write meaningful commit messages and pull request titles that are concise but explanatory.
 
+If you are a Datadog employee, share your pull request in #documentation and a writer on the team will take a look. 
+
 [1]: https://docs.datadoghq.com/help/
 [2]: https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md
 [3]: https://github.com/DataDog/datadog-vale/blob/main/Docsmd/gender.yml
