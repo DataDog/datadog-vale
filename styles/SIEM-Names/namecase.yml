@@ -48,6 +48,7 @@ exceptions:
   - Google Compute
   - Google Compute Engine
   - Google Drive
+  - Google Security Command Center
   - Google Workspace
   - IoC
   - Microsoft 365 Application Impersonation
