@@ -64,6 +64,7 @@ exceptions:
   - Microsoft Defender for Cloud
   - Okta
   - RDS Snapshot
+  - Sqreen
   - Tor
   - TruffleHog
 
