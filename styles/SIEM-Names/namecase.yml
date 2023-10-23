@@ -36,10 +36,11 @@ exceptions:
   - Cloudflare CASB Finding
   - Cloudflare L7 DDOS
   - Crowdstrike Alerts
-  - Github Advanced Security
-  - Github Dependabot
-  - Github Personal Access Token
-  - Github Secret Scanning
+  - GitHub
+  - GitHub Advanced Security
+  - GitHub Dependabot
+  - GitHub Personal Access Token
+  - GitHub Secret Scanning
   - Google App Engine
   - Google Cloud
   - Google Cloud IAM Role updated
