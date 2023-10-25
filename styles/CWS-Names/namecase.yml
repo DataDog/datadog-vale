@@ -2,3 +2,8 @@ extends: capitalization
 message: Rule names should use sentence case
 level: error
 match: $sentence
+exceptions:
+  - OverlayFS
+  - DNS
+  - TXT
+  - Kubernetes
