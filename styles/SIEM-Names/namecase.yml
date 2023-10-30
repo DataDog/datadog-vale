@@ -64,6 +64,7 @@ exceptions:
   - Microsoft Teams
   - Microsoft Defender for Cloud
   - Okta
+  - Okta Identity Provider
   - RDS Snapshot
   - Sqreen
   - Tor
