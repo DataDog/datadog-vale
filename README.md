@@ -60,7 +60,7 @@ Example of local linting with VS Code:<br>
 
 Code—including sample code—in this repository is licensed under the [Apache 2.0 license][11].
 
-[1]: https://docs.errata.ai
+[1]: https://vale.sh/
 [2]: https://github.com/errata-ai/vale-action
 [3]: /examples/linting.yml
 [4]: /examples/github-actions-linting.png
