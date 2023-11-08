@@ -65,6 +65,7 @@ exceptions:
   - Microsoft Defender for Cloud
   - Okta
   - Okta Identity Provider
+  - Palo Alto Networks Firewall
   - RDS Snapshot
   - Sqreen
   - Tor
