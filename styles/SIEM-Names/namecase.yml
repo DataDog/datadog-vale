@@ -68,6 +68,7 @@ exceptions:
   - Okta Identity Provider
   - Palo Alto Networks Firewall
   - RDS Snapshot
+  - Scout Suite
   - Sqreen
   - Tor
   - TruffleHog
