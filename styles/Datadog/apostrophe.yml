@@ -1,0 +1,7 @@
+extends: existence
+message: "Possessive nouns receive an `'s`, even if they are proper nouns that end in `s`."
+link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#apostrophes'
+ignorecase: true
+level: warning
+tokens:
+  - "[a-zA-Z]*' "
