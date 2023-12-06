@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use %s' instead of '%s'."
+link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#words-and-phrases'
+ignorecase: true
+level: warning
+action:
+  name: replace
+swap:
+  - (?:enterprise-level|Enterprise-level|enterprise level|Enterprise level) : Enterprise plan|enterprise plan
+  - (?:pro-level|Pro-level|pro level|Pro level) : Pro plan|pro plan
