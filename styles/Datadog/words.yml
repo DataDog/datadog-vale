@@ -19,11 +19,11 @@ swap:
   bear in mind: keep in mind
   boolean: Boolean
   booleans: Booleans
-  catalogue: catalog
-  catalogues: catalogs
+  cheat sheet: cheetsheet
   command line interface: command-line interface
   Create a new: Create a|Create an
   culprit: cause
+  data are: data is
   'data(?:\s|-)point': datapoint
   'data(?:\s|-)points': datapoints
   'data(?:\s|-)set': dataset
@@ -34,9 +34,12 @@ swap:
   Datadog product: Datadog|Datadog service
   data-?source: data source
   data-?sources: data sources
+  default (?:dash|screen)board: out-of-the-box dashboard
+  default (?:dash|screen)boards: out-of-the-box dashboards
   (?:Dev/?ops|dev/?ops|Dev/Ops): DevOps|DevSecOps
   'drill (?:down|into)': examine|investigate|analyze
   'drilling (?:down|into)': examining|investigating|analyzing
+  Distributed Tracing: distributed tracing
   (?:easy|easily): ''
   e-?book: eBook
   e-?books: eBooks
@@ -45,6 +48,7 @@ swap:
   e-mails: emails
   'end(?:\s|-)point': endpoint
   'end(?:\s|-)points': endpoints
+  event (?:stream|streem): Event Stream
   flame-?graph: flame graph
   flame-?graphs: flame graphs
   figure out: determine
