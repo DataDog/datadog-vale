@@ -65,7 +65,7 @@ exceptions:
   - Microsoft 365 Security and Compliance
   - Microsoft 365 SendAs
   - Microsoft Defender for Cloud
-  - Microsoft Intune Enterprise MDM disabled
+  - Microsoft Intune Enterprise MDM
   - Microsoft Teams
   - Okta
   - Okta Identity Provider
