@@ -36,6 +36,7 @@ exceptions:
   - Cloudflare CASB Finding
   - Cloudflare L7 DDOS
   - Crowdstrike Alerts
+  - Enterprise Organization
   - GitHub
   - GitHub Advanced Security
   - GitHub Dependabot
@@ -63,8 +64,9 @@ exceptions:
   - Microsoft 365 OneDrive
   - Microsoft 365 Security and Compliance
   - Microsoft 365 SendAs
-  - Microsoft Teams
   - Microsoft Defender for Cloud
+  - Microsoft Intune Enterprise MDM disabled
+  - Microsoft Teams
   - Okta
   - Okta Identity Provider
   - Palo Alto Networks Firewall
