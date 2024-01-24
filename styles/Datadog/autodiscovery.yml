@@ -1,5 +1,5 @@
 extends: substitution
-message: "Use %s' (the former, to refer to Datadog's mechanism for applying integration configurations to containers; the latter, to refer to automatic discovery IN GENERAL) instead of '%s'."
+message: "Use %s (the former, to refer to Datadog's mechanism for applying integration configurations to containers; the latter, to refer to automatic discovery IN GENERAL) instead of '%s'."
 link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#words-and-phrases'
 ignorecase: false
 level: warning
