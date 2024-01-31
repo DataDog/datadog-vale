@@ -72,6 +72,7 @@ exceptions:
   - Palo Alto Networks Firewall
   - RDS Snapshot
   - Scout Suite
+  - IdP configuration changed
   - Sqreen
   - Tor
   - TruffleHog
