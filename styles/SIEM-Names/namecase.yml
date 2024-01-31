@@ -7,7 +7,7 @@ exceptions:
   - Advanced Protection
   - Autoscaling Group
   - Amazon EC2 Instance
-  - Amazon S3 
+  - Amazon S3
   - API calls
   - Auth0 Attack Protection
   - Auth0 Breached Password Detection
@@ -22,7 +22,7 @@ exceptions:
   - AWS GuardDuty
   - AWS IAM Roles Anywhere
   - AWS Kinesis Firehose
-  - AWS Lambda    
+  - AWS Lambda
   - AWS Network Gateway
   - AWS Secrets Manager
   - AWS Systems Manager
@@ -52,6 +52,7 @@ exceptions:
   - Google Drive
   - Google Security Command Center
   - Google Workspace
+  - IdP configuration changed
   - Impossible Travel Auth0
   - IoC
   - Jamf Protect
@@ -76,5 +77,3 @@ exceptions:
   - Tor
   - TruffleHog
   - Zendesk Automatic Redaction
-
-
