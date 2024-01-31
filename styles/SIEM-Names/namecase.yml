@@ -52,6 +52,7 @@ exceptions:
   - Google Drive
   - Google Security Command Center
   - Google Workspace
+  - IdP configuration changed
   - Impossible Travel Auth0
   - IoC
   - Jamf Protect
@@ -72,7 +73,6 @@ exceptions:
   - Palo Alto Networks Firewall
   - RDS Snapshot
   - Scout Suite
-  - IdP configuration changed
   - Sqreen
   - Tor
   - TruffleHog
