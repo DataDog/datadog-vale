@@ -128,8 +128,8 @@ swap:
   visit: see|read
   webserver: web server
   web site: website
-  'X-?(?:A|a)xis': x-axis
-  'Y-?(?:A|a)xis': y-axis
+  'X-axis': x-axis
+  'Y-axis': y-axis
 
   # proper nouns
   (?:github|Github): GitHub
