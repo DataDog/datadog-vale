@@ -6,6 +6,6 @@ level: warning
 action:
   name: replace
 swap:
-  - (?:autodiscovery|auto-discovery|Auto-discovery) : Autodiscovery|automatic detection
+  - (?:autodiscovery|auto-discovery|Auto-discovery): Autodiscovery|automatic detection
   - (?:autodiscover|auto-discover|Auto-discover): Autodiscover|automatically detect
   - (?:autodiscovered|auto-discovered|Auto-discovered): Autodiscovered|automatically detected
