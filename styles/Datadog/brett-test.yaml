@@ -6,4 +6,5 @@ level: error
 nonword: true
 
 tokens:
-  - 'TEST`
+  - `TEST`
+  - `TEST2`
