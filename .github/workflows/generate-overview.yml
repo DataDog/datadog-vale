@@ -1,10 +1,10 @@
-name: Update Rule Overview Page
+name: Update Rules Page
 
 on:
   push:
     branches:
       - main
-      - brett0000FF/generate-rules-page
+      - brett0000FF/generate-rules-page ##remove
     paths:
       - 'styles/**'
       - '.github/workflows/generate-overview.yml'
@@ -34,5 +34,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add rules_overview.md
-        git commit -m "Update rules overview Markdown" || echo "No changes to commit"
+        git commit -m "Update rules page." || echo "No changes to commit."
         git push
