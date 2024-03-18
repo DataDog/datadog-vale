@@ -7,7 +7,7 @@ on:
       - brett0000FF/generate-rules-page ##remove
     paths:
       - 'styles/**'
-      - '.github/workflows/generate-overview.yml'
+      - '.github/workflows/update-rules.yml'
 
 jobs:
   generate_markdown:
@@ -27,7 +27,7 @@ jobs:
         pip install pyyaml
 
     - name: Run script to generate Markdown
-      run: python scripts/generate-overview.py
+      run: python scripts/update-rules-page.py
 
     - name: Commit and push changes
       run: |

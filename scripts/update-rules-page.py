@@ -53,7 +53,7 @@ def main():
     style_folders = [folder for folder in os.listdir(styles_folder)
                      if os.path.isdir(os.path.join(styles_folder, folder))]
 
-    markdown_content = "# Vale Linter Rules\n\n"
+    markdown_content = "# Vale Rules Overview\n\n"
     markdown_content += "This page provides a comprehensive list of the Vale linter rules used in Datadog documentation.\n\n"
     markdown_content += f"Last Updated: {datetime.now().strftime('%Y-%m-%d')}\n\n"
     markdown_content += generate_table_of_contents(style_folders)
@@ -63,7 +63,7 @@ def main():
         markdown_content += f"\n## {style_folder}\n\n"
         markdown_content += process_subfolder(subfolder_path)
 
-    with open('rules_overview.md', 'w') as file:
+    with open('RULES.md', 'w') as file:
         file.write(markdown_content)
 
 if __name__ == '__main__':
