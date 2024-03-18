@@ -34,4 +34,5 @@ jobs:
         git add RULES.md
         TIMESTAMP=$(date -u +"%Y-%m-%d")
         git commit -m "Update RULES.md - $TIMESTAMP." || echo "No changes to commit."
+        git pull origin ${{ github.head_ref }}
         git push origin HEAD:${{ github.head_ref }}
