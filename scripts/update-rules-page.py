@@ -3,9 +3,9 @@ import yaml
 from datetime import datetime
 
 def generate_rule_markdown(rule_data):
-    
+
     ## Use description field if it exists; if not, use message field
-    description = rule_data.get('description', rule_data['message'])
+    description = rule_data.get('description', rule_data['message'].rstrip('.'))
     markdown = f"### {description}\n\n"
     markdown += f"**Level:** *{rule_data['level']}*\n\n"
 
