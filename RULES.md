@@ -125,7 +125,7 @@ Last Updated: 2024-03-18
 
 **Ignore Case:** True
 
-### Avoid vague text in links like '%s' unless you can pair it with more descriptive text.
+### Avoid vague text in links like '%s' unless you can pair it with more descriptive text
 
 **Level:** *warning*
 
@@ -143,7 +143,7 @@ Last Updated: 2024-03-18
 
 **Ignore Case:** True
 
-### Use '%s' instead of '%s'.
+### Use '%s' instead of '%s'
 
 **Level:** *warning*
 
@@ -299,7 +299,7 @@ Last Updated: 2024-03-18
 
 **Ignore Case:** True
 
-### '%s' should use sentence-style capitalization.
+### '%s' should use sentence-style capitalization
 
 **Level:** *warning*
 
@@ -593,7 +593,7 @@ Last Updated: 2024-03-18
 **Tokens:**
 - `\s[—–]\s`
 
-### Avoid temporal words like '%s'.
+### Avoid temporal words like '%s'
 
 **Level:** *warning*
 
@@ -674,7 +674,7 @@ Last Updated: 2024-03-18
 
 **Ignore Case:** True
 
-### Avoid first-person pronouns such as '%s'.
+### Avoid first-person pronouns such as '%s'
 
 **Level:** *warning*
 
@@ -694,7 +694,7 @@ Last Updated: 2024-03-18
 - `\blet's\b`
 
 ### Avoid en dashes ('–'). For hyphenated words, use a hyphen ('-').
-For parenthesis, use an em dash ('—').
+For parenthesis, use an em dash ('—')
 
 **Level:** *error*
 
@@ -703,7 +703,7 @@ For parenthesis, use an em dash ('—').
 **Tokens:**
 - `–`
 
-### Use %s (the former, to refer to Datadog's mechanism for applying integration configurations to containers; the latter, to refer to automatic discovery IN GENERAL) instead of '%s'.
+### Use %s (the former, to refer to Datadog's mechanism for applying integration configurations to containers; the latter, to refer to automatic discovery IN GENERAL) instead of '%s'
 
 **Level:** *warning*
 
@@ -716,7 +716,7 @@ For parenthesis, use an em dash ('—').
 
 **Ignore Case:** False
 
-### Use a gender-neutral pronoun instead of '%s'.
+### Use a gender-neutral pronoun instead of '%s'
 
 **Level:** *error*
 
@@ -734,7 +734,7 @@ For parenthesis, use an em dash ('—').
 
 **Ignore Case:** True
 
-### Use only one space between words and sentences (not two).
+### Use only one space between words and sentences (not two)
 
 **Level:** *error*
 
@@ -752,7 +752,7 @@ For parenthesis, use an em dash ('—').
 **Tokens:**
 - `\s[—–]\s`
 
-### Use straight quotes instead of smart quotes.
+### Use straight quotes instead of smart quotes
 
 **Level:** *error*
 
@@ -762,7 +762,7 @@ For parenthesis, use an em dash ('—').
 - `‘`
 - `’`
 
-### Format times as 'HOUR:MINUTE a.m.' or HOUR:MINUTE p.m.' instead of '%s'.
+### Format times as 'HOUR:MINUTE a.m.' or HOUR:MINUTE p.m.' instead of '%s'
 
 **Level:** *warning*
 
@@ -773,7 +773,7 @@ For parenthesis, use an em dash ('—').
 - `(1[012]|[1-9]):[0-5][0-9] (?i)(a\.m[^\.]|p\.m[^\.])`
 - `(1[012]|[1-9]):[0-5][0-9][ ]?(?i)(am|pm)`
 
-### Use the Oxford comma in '%s'.
+### Use the Oxford comma in '%s'
 
 **Level:** *suggestion*
 
@@ -782,7 +782,7 @@ For parenthesis, use an em dash ('—').
 **Tokens:**
 - `(?:[^,]+,){1,}\s\w+\s(?:and|or)`
 
-### Don't put a space before or after a dash.
+### Don't put a space before or after a dash
 
 **Level:** *warning*
 
@@ -791,7 +791,7 @@ For parenthesis, use an em dash ('—').
 **Tokens:**
 - `\s[—–]\s`
 
-### Try to keep your sentence length to 25 words or fewer.
+### Try to keep your sentence length to 25 words or fewer
 
 **Level:** *suggestion*
 
