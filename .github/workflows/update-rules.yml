@@ -2,8 +2,7 @@ name: Update Rules Page
 
 on:
   pull_request:
-    branches:
-      - [main]
+    branches: [main]
     paths:
       - 'styles/**'
       - '.github/workflows/update-rules.yml'
