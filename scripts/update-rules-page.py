@@ -12,12 +12,18 @@ def generate_rule_markdown(rule_data):
     if 'link' in rule_data:
         markdown += f"[Link]({rule_data['link']})\n\n"
 
-    for field in ['tokens', 'exceptions']:
+    for field in ['tokens']:
         if field in rule_data:
             markdown += f"**{field.capitalize()}:**\n"
             for item in rule_data[field]:
                 markdown += f"- `{item}`\n"
             markdown += "\n"
+
+    if 'exceptions' in rule_data:
+        markdown += "<details>\n<summary>Exceptions:</summary>\n\n"
+        for exception in rule_data['exceptions']:
+            markdown += f"- `{exception}`\n"
+        markdown += "</details>\n\n"
 
     if 'swap' in rule_data:
         markdown += "**Swap:**\n"
