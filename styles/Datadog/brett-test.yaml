@@ -1,0 +1,9 @@
+extends: existence
+message: BRETT TEST
+link: https://www.datadoghq.com
+ignorecase: true
+level: error
+nonword: true
+
+tokens:
+  - 'TEST`
