@@ -7,7 +7,7 @@ on:
       - brett0000FF/generate-rules-page
     paths:
       - 'styles/**'
-      - '.github/workflows/generate-rule-markdown.yml'
+      - '.github/workflows/generate-overview.yml'
 
 jobs:
   generate_markdown:
@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: 3.x
 
     - name: Install dependencies
       run: |
