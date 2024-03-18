@@ -287,7 +287,7 @@ Last Updated: 2024-03-18
 
 **Ignore Case:** False
 
-### Use '%s' instead of abbreviations like '%s'.
+### Don't use Latin abbreviations
 
 **Level:** *warning*
 
@@ -608,7 +608,7 @@ Last Updated: 2024-03-18
 
 **Ignore Case:** True
 
-### In general, use American spelling instead of '%s'.
+### Use American spelling
 
 **Level:** *warning*
 
