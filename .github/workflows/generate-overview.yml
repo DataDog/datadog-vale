@@ -1,0 +1,38 @@
+name: Generate Rule Overview Page
+
+on:
+  push:
+    branches:
+      - main
+      - brett0000FF/generate-rules-page
+    paths:
+      - 'styles/**'
+      - '.github/workflows/generate-rule-markdown.yml'
+
+jobs:
+  generate_markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+
+    - name: Run script to generate Markdown
+      run: python generate-overview.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add rules_overview.md
+        git commit -m "Update rules overview Markdown" || echo "No changes to commit"
+        git push
