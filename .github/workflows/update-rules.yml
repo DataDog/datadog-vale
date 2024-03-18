@@ -1,10 +1,9 @@
 name: Update Rules Page
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
-      - brett0000FF/generate-rules-page ##remove
+      - [main]
     paths:
       - 'styles/**'
       - '.github/workflows/update-rules.yml'
