@@ -716,7 +716,7 @@ For parenthesis, use an em dash ('—')
 
 **Ignore Case:** False
 
-### Use a gender-neutral pronoun instead of '%s'
+### Use gender-neutral pronouns
 
 **Level:** *error*
 
