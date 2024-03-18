@@ -3,8 +3,10 @@ import yaml
 from datetime import datetime
 
 def generate_rule_markdown(rule_data):
-    message = rule_data['message']
-    markdown = f"### {message}\n\n"
+    
+    ## Use description field if it exists; if not, use message field
+    description = rule_data.get('description', rule_data['message'])
+    markdown = f"### {description}\n\n"
     markdown += f"**Level:** *{rule_data['level']}*\n\n"
 
     if 'link' in rule_data:
