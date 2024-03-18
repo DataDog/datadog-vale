@@ -16,7 +16,7 @@ Are you interested in contributing your team's product-specific terminology and 
 
 1. Create a folder such as `[Product Name]-Names` and add it to the [`Styles/Datadog` folder][4].
 2. Update the [CODEOWNERS file][5] with your team's GitHub handle.
-3. Update the `StylesPath` to point to the approriate directory in your team repository's [`.vale.ini` file][6].
+3. Update the `StylesPath` to point to the appropriate directory in your team repository's [`.vale.ini` file][6].
 
 In order to ease and speed up our review, here are some items you can check for when submitting your pull request:
 
