@@ -1,5 +1,5 @@
 extends: existence
-message: "Brett Test 3"
+message: "Brett Test 3 (test edit)"
 link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#dashes"
 nonword: true
 level: warning
