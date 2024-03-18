@@ -1,0 +1,12 @@
+extends: existence
+message: "Brett Test 2"
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#dashes"
+nonword: true
+level: warning
+action:
+  name: edit
+  params:
+    - remove
+    - ' '
+tokens:
+  - '\s[—–]\s'
