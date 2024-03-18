@@ -27,7 +27,7 @@ jobs:
         pip install pyyaml
 
     - name: Run script to generate Markdown
-      run: python generate-overview.py
+      run: python scripts/generate-overview.py
 
     - name: Commit and push changes
       run: |
