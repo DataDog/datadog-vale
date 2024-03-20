@@ -114,7 +114,7 @@ Last Updated: 2024-03-20
 
 ## Datadog
 
-### Use '%s' instead of '%s'
+### Use inclusive language
 
 **Level:** *error*
 
