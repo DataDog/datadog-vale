@@ -2,7 +2,7 @@
 
 This page provides a comprehensive list of the Vale linter rules used in Datadog documentation.
 
-Last Updated: 2024-03-18
+Last Updated: 2024-03-20
 
 ## Table of Contents
 - [Vocab](#vocab)
@@ -290,7 +290,7 @@ Last Updated: 2024-03-18
 
 **Ignore Case:** False
 
-### Don't use Latin abbreviations
+### Do not use Latin abbreviations
 
 **Level:** *warning*
 
