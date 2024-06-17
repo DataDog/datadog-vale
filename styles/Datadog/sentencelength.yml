@@ -8,4 +8,4 @@ level: suggestion
 scope: sentence
 ignorecase: false
 max: 25
-token: (\w+)
+token: \b(\w+)\b
