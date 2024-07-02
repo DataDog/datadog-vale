@@ -136,6 +136,7 @@ swap:
   (?:kubernetes|k8s|K8s|K8S): Kubernetes
   (?:Mapreduce|mapreduce|Map reduce|Map Reduce): MapReduce
   memcached: Memcached
+  (?:netflow|Netflow): NetFlow
   (?:nginx|Nginx): NGINX
   (?:node.js|nodeJS|NodeJS|node.JS|Node.JS): Node.js
   (?:pagerduty|pager duty|Pagerduty|Pager duty): PagerDuty
