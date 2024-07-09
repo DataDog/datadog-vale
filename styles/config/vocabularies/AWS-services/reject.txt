@@ -22,17 +22,17 @@ AWS Connect
 Amazon (Database Migration Service|DMS)
 Amazon Direct Connect
 AWS DocumentDB
-AWS (DynamoDB|DynamoDB Accelerator)
+AWS DynamoDB
 AWS (Elastic Block Store|EBS)
-AWS (EC2|EC2 Spot|EC2 Auto Scaling)
+AWS EC2
 AWS (Elastic Container Service|ECS)
 AWS ElastiCache
 Amazon Elastic Beanstalk
 AWS (Elastic Container Registry|ECR)
 AWS (Elastic File System|EFS)
-AWS (Elastic Kubernetes Service|EKS|EKS Anywhere)
+AWS (Elastic Kubernetes Service|EKS)
 AWS Elastic Transcoder
-Amazon Elemental Media(Connect|Convert|Live|Package|Store|Tailor)
+Amazon Elemental Media([Cc]onnect|[Cc]onvert|[Ll]ive|[Pp]ackage|[Ss]tore|[Tt]ailor)
 AWS EMR
 AWS EventBridge
 AWS FSx
@@ -43,7 +43,7 @@ AWS Inspector
 Amazon IoT
 AWS Keyspaces
 Amazon (Key Management Service|KMS)
-AWS (Kinesis|Kinesis Data Analytics)
+AWS Kinesis
 Amazon Lambda
 AWS Lex
 AWS (Managed Streaming for Apache Kafka|MSK)
@@ -57,13 +57,13 @@ AWS OpenSearch Serverless
 Amazon OpsWorks
 AWS Polly
 Amazon PrivateLink
-AWS (RDS|RDS Proxy)
+AWS RDS
 AWS Redshift
 AWS Rekognition
 AWS Route 53
 AWS SageMaker
 AWS (Simple Email Service|SES)
-AWS (Simple Storage Service|S3|S3 Storage Lens)
+AWS (Simple Storage Service|S3)
 Amazon Security Hub
 AWS Security Lake
 AWS (Simple Notification Service|SNS)
