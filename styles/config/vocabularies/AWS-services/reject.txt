@@ -1,0 +1,84 @@
+AWS API Gateway
+Amazon App Mesh
+Amazon App Runner
+AWS AppStream
+Amazon AppSync
+AWS Athena
+Amazon Auto Scaling
+Amazon Backup
+AWS Bedrock
+Amazon Certificate Manager
+AWS CloudFront
+Amazon CloudHSM
+AWS CloudSearch
+Amazon CloudTrail
+Amazon (CodeBuild|CodeDeploy)
+AWS CodeWhisperer
+AWS Cognito
+Amazon Compute Optimizer
+Amazon Config
+AWS Connect
+(Amazon|AWS) Kinesis Data Firehose
+Amazon (Database Migration Service|DMS)
+Amazon Direct Connect
+AWS DocumentDB
+AWS DynamoDB
+AWS (Elastic Block Store|EBS)
+AWS EC2
+AWS (Elastic Container Service|ECS)
+AWS ElastiCache
+Amazon Elastic Beanstalk
+AWS (Elastic Container Registry|ECR)
+AWS (Elastic File System|EFS)
+AWS (Elastic Kubernetes Service|EKS)
+AWS Elastic Transcoder
+Amazon Elemental Media([Cc]onnect|[Cc]onvert|[Ll]ive|[Pp]ackage|[Ss]tore|[Tt]ailor)
+AWS EMR
+AWS EventBridge
+AWS FSx
+AWS GameLift
+Amazon Global Accelerator
+Amazon Glue
+AWS Inspector
+Amazon IoT
+AWS Keyspaces
+Amazon (Key Management Service|KMS)
+AWS Kinesis
+Amazon Lambda
+AWS Lex
+AWS (Managed Streaming for Apache Kafka|MSK)
+AWS (Managed Workflows for Apache Airflow|MWAA)
+AWS MQ
+AWS MemoryDB
+AWS Neptune
+Amazon Network Firewall
+AWS CloudWatch Network Monitor
+AWS OpenSearch Serverless
+Amazon OpsWorks
+AWS Polly
+Amazon PrivateLink
+AWS RDS
+AWS Redshift
+AWS Rekognition
+AWS Route 53
+AWS SageMaker
+AWS (Simple Email Service|SES)
+AWS (Simple Storage Service|S3)
+Amazon Security Hub
+AWS Security Lake
+AWS (Simple Notification Service|SNS)
+AWS (Simple Queue Service|SQS)
+AWS (Simple Workflow Service|SWF)
+Amazon Shield
+Amazon Step Functions
+Amazon Storage Gateway
+AWS Textract
+Amazon Transit Gateway
+AWS Translate
+Amazon Trusted Advisor
+Amazon Verified Access
+AWS VPC
+Amazon VPN
+Amazon WAF
+AWS WorkSpaces
+Amazon X-Ray

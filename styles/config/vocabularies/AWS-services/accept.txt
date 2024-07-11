@@ -1,0 +1,108 @@
+Amazon API Gateway
+AWS App Mesh
+AWS App Runner
+Amazon AppStream
+AWS AppSync
+Amazon Athena
+AWS Auto Scaling
+AWS Backup
+Amazon Bedrock
+AWS Certificate Manager
+Amazon CloudFront
+AWS CloudHSM
+Amazon CloudSearch
+AWS CloudTrail
+AWS CodeBuild
+AWS CodeDeploy
+Amazon CodeWhisperer
+Amazon Cognito
+AWS Compute Optimizer
+AWS Config
+Amazon Connect
+Amazon Data Firehose
+AWS Database Migration Service
+AWS DMS
+AWS Direct Connect
+Amazon DocumentDB
+Amazon DynamoDB
+Amazon DynamoDB Accelerator
+Amazon Elastic Block Store
+Amazon EBS
+Amazon EC2
+Amazon EC2 Spot
+Amazon EC2 Auto Scaling
+Amazon Elastic Container Service
+Amazon ECS
+Amazon ElastiCache
+AWS Elastic Beanstalk
+Amazon Elastic Container Registry
+Amazon ECR
+Amazon Elastic File System
+Amazon EFS
+Amazon Elastic Kubernetes Service
+Amazon EKS
+Amazon EKS Anywhere
+Amazon Elastic Transcoder
+AWS Elemental MediaConnect
+AWS Elemental MediaConvert
+AWS Elemental MediaLive
+AWS Elemental MediaPackage
+AWS Elemental MediaStore
+AWS Elemental MediaTailor
+Amazon EMR
+Amazon EventBridge
+Amazon FSx
+Amazon GameLift
+AWS Global Accelerator
+AWS Glue
+Amazon Inspector
+AWS IoT
+Amazon Keyspaces
+AWS Key Management Service
+AWS KMS
+Amazon Kinesis
+AWS Lambda
+Amazon Lex
+Amazon Managed Streaming for Apache Kafka
+Amazon MSK
+Amazon Managed Workflows for Apache Airflow
+Amazon MWAA
+Amazon MQ
+Amazon MemoryDB
+Amazon Neptune
+AWS Network Firewall
+Amazon CloudWatch Network Monitor
+Amazon OpenSearch Serverless
+AWS OpsWorks
+Amazon Polly
+AWS PrivateLink
+Amazon RDS
+Amazon Redshift
+Amazon Rekognition
+Amazon Route 53
+Amazon SageMaker
+Amazon Simple Email Service
+Amazon SES
+Amazon Simple Storage Service
+Amazon S3
+AWS Security Hub
+Amazon Security Lake
+Amazon Simple Notification Service
+Amazon SNS
+Amazon Simple Queue Service
+Amazon SQS
+Amazon Simple Workflow Service
+Amazon SWF
+AWS Shield
+AWS Step Functions
+AWS Storage Gateway
+Amazon Textract
+AWS Transit Gateway
+Amazon Translate
+AWS Trusted Advisor
+AWS Verified Access
+Amazon VPC
+AWS VPN
+AWS WAF
+Amazon WorkSpaces
+AWS X-Ray
