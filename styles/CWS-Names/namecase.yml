@@ -7,3 +7,4 @@ exceptions:
   - DNS
   - TXT
   - Kubernetes
+  - AWS CLI
