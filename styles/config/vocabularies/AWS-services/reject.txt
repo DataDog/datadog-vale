@@ -35,6 +35,7 @@ AWS Elastic Transcoder
 Amazon Elemental Media([Cc]onnect|[Cc]onvert|[Ll]ive|[Pp]ackage|[Ss]tore|[Tt]ailor)
 AWS EMR
 AWS EventBridge
+Amazon Fargate
 AWS FSx
 AWS GameLift
 Amazon Global Accelerator
