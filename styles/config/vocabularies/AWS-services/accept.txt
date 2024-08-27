@@ -51,6 +51,7 @@ AWS Elemental MediaStore
 AWS Elemental MediaTailor
 Amazon EMR
 Amazon EventBridge
+AWS Fargate
 Amazon FSx
 Amazon GameLift
 AWS Global Accelerator
