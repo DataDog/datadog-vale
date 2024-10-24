@@ -130,6 +130,9 @@ swap:
   web site: website
   'X-axis': x-axis
   'Y-axis': y-axis
+  'NPM': CNM
+  'Network Performance Monitoring': Cloud Network Monitoring
+  
 
   # proper nouns
   (?:github|Github): GitHub
