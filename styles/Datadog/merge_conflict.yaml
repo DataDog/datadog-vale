@@ -1,0 +1,7 @@
+extends: existence
+message: "It looks like you missed a merge conflict! Fix the conflict and try again."
+link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md'
+ignorecase: true
+level: error
+tokens:
+  - '\<\<\< HEAD'
