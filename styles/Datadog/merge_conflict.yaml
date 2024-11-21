@@ -4,4 +4,4 @@ link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md'
 ignorecase: true
 level: error
 tokens:
-  - '\>\>\>\>\>\>\>'
+  - '/^[<=>]{7}( .+)?$/mg'
