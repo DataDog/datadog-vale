@@ -28,7 +28,7 @@ swap:
   Amazon Compute Optimizer: AWS Compute Optimizer
   Amazon Config: AWS Config
   AWS Connect: Amazon Connect
-  (Amazon|AWS) Kinesis Data Firehose: Amazon Data Firehose
+  (?:Amazon|AWS) Kinesis Data Firehose: Amazon Data Firehose
   Amazon Database Migration Service: AWS Database Migration Service
   Amazon DMS: AWS DMS
   Amazon Direct Connect: AWS Direct Connect
@@ -52,12 +52,12 @@ swap:
   AWS EKS: Amazon EKS
   AWS EKS Anywhere: Amazon EKS Anywhere
   AWS Elastic Transcoder: Amazon Elastic Transcoder
-  Amazon Elemental Media( ?[Cc]onnect): AWS Elemental MediaConnect
-  Amazon Elemental Media( ?[Cc]onvert): AWS Elemental MediaConvert
-  Amazon Elemental Media( ?[Ll]ive): AWS Elemental MediaLive
-  Amazon Elemental Media( ?[Pp]ackage): AWS Elemental MediaPackage
-  Amazon Elemental Media( ?[Ss]tore): AWS Elemental MediaStore
-  Amazon Elemental Media( ?[Tt]ailor): AWS Elemental MediaTailor
+  "Amazon Elemental Media(?: ?[Cc]onnect)": AWS Elemental MediaConnect
+  "Amazon Elemental Media(?: ?[Cc]onvert)": AWS Elemental MediaConvert
+  "Amazon Elemental Media(?: ?[Ll]ive)": AWS Elemental MediaLive
+  "Amazon Elemental Media(?: ?[Pp]ackage)": AWS Elemental MediaPackage
+  "Amazon Elemental Media(?: ?[Ss]tore)": AWS Elemental MediaStore
+  "Amazon Elemental Media(?: ?[Tt]ailor)": AWS Elemental MediaTailor
   AWS EMR: Amazon EMR
   AWS EventBridge: Amazon EventBridge
   Amazon Fargate: AWS Fargate
