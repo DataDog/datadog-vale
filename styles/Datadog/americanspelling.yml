@@ -1,4 +1,5 @@
 extends: existence
+description: Use American spelling
 message: "In general, use American spelling instead of '%s'."
 link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md'
 ignorecase: true

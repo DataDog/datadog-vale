@@ -1,4 +1,5 @@
 extends: substitution
+description: Do not use Latin abbreviations
 message: "Use '%s' instead of abbreviations like '%s'."
 link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#abbreviations"
 ignorecase: true
