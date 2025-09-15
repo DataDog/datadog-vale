@@ -1,5 +1,5 @@
 extends: substitution
-message: "Use abbreviations for common terms: '%s' instead of '%s'."
+message: "Use abbreviations for common industry terms: '%s' instead of '%s'."
 link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#abbreviations"
 ignorecase: true
 level: warning
