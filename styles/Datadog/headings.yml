@@ -78,7 +78,6 @@ exceptions:
   - Cloud Pub Sub
   - Cloud Security
   - Cloud Security Identity Risks
-  - Cloud Security Management
   - Cloud Security Misconfigurations
   - Cloud Security Posture Management
   - Cloud Security Vulnerabilities
