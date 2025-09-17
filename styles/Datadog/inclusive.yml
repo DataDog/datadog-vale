@@ -7,7 +7,7 @@ action:
   name: replace
 swap:
   # bad: good
-  'black ?list': 'disallow list|exclude list'
+  'black ?list': 'blocklist|disallow list|exclude list|denylist'
   'master': primary
   'slave': secondary
-  'white ?list': 'allow list|include list'
+  'white ?list': 'allowlist|include list'

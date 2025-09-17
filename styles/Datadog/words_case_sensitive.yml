@@ -1,0 +1,38 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#words-and-phrases"
+ignorecase: false
+level: warning
+action:
+  name: replace
+swap:
+  # bad: good
+  Availability Zone: availability zone
+  Availability Zones: availability zones
+  boolean: Boolean
+  booleans: Booleans
+  Datadog agent: Datadog Agent
+  (?:Dev/?ops|dev/?ops|Dev/Ops): DevOps|DevSecOps
+  Distributed Tracing: distributed tracing
+  event (?:stream|streem): Event Stream
+  (?:Heat-?[Mm]ap): heat map
+  (?:Heat-?[Mm]aps): heat maps
+  (?:Host-?[Mm]ap): host map
+  (?:Host-?[Mm]aps): host maps
+  Internet: internet
+  'X-axis': x-axis
+  'Y-axis': y-axis
+
+  # proper nouns
+  (?:github|Github): GitHub
+  (?:kubernetes|k8s|K8s|K8S): Kubernetes
+  (?:Mapreduce|mapreduce|Map reduce|Map Reduce): MapReduce
+  memcached: Memcached
+  (?:netflow|Netflow): NetFlow
+  (?:nginx|Nginx): NGINX
+  (?:node.js|nodeJS|NodeJS|node.JS|Node.JS): Node.js
+  (?:pagerduty|pager duty|Pagerduty|Pager duty): PagerDuty
+  prometheus: Prometheus
+  (?:sql|Sql): SQL
+  (?:statsd|statsD|Statsd): StatsD
+  (?:unix|Unix): UNIX
