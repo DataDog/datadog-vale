@@ -12,7 +12,6 @@ swap:
   acknowledgement: acknowledgment
   action on: act on|take action on
   afterwards: afterward
-  App Analytics: Tracing without Limits™
   'auto(?:\s|-)complete': autocomplete
   'auto(?:\s|-)completion': autocompletion
   'auto(?:\s|-)scale': autoscale
@@ -22,7 +21,7 @@ swap:
   bear in mind: keep in mind
   cheat sheet: cheatsheet
   command line interface: command-line interface
-  Create a new: Create a|Create an
+  create a new: create a|create an
   culprit: cause
   data are: data is
   'data(?:\s|-)point': datapoint
@@ -40,8 +39,6 @@ swap:
   'drill (?:down|into)': examine|investigate|analyze
   'drilling (?:down|into)': examining|investigating|analyzing
   (?:easy|easily): ''
-  e-?book: eBook
-  e-?books: eBooks
   e-mail: email
   e-mailing: emailing
   e-mails: emails
@@ -92,7 +89,6 @@ swap:
   (?:obvious|obviously): ''
   off-line: offline
   on the fly: real-time|in real time
-  once: after
   open-?source: open source
   page view: pageview
   page views: pageviews
@@ -105,7 +101,6 @@ swap:
   single pane of glass: single view|single place|single page
   slice and dice: filter and group
   stand for: represent|mean
-  Synthetics: Synthetic Monitoring
   reenable: re-enable
   'run(?:\s|-)time': runtime
   refer to|visit: see|read|follow
@@ -115,7 +110,6 @@ swap:
   time-?frames: time frames
   top-?list: top list
   'trade(?:\s|-)off': trade-off
-  Trace Search and Analytics: Tracing without Limits™
   turnkey: ready to use
   under the hood: ''
   utilize: use
@@ -124,5 +118,3 @@ swap:
   visit: see|read
   webserver: web server
   web site: website
-  'NPM': CNM
-  'Network Performance Monitoring': Cloud Network Monitoring

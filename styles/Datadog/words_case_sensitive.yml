@@ -15,25 +15,33 @@ swap:
   Datadog agent: Datadog Agent
   (?:Dev/?ops|dev/?ops|Dev/Ops): DevOps|DevSecOps
   Distributed Tracing: distributed tracing
+  e-?book: eBook
+  e-?books: eBooks
   event (?:stream|streem): Event Stream
   (?:Heat-?[Mm]ap): heat map
   (?:Heat-?[Mm]aps): heat maps
   (?:Host-?[Mm]ap): host map
   (?:Host-?[Mm]aps): host maps
   Internet: internet
+  Once: After
   'X-axis': x-axis
   'Y-axis': y-axis
 
   # proper nouns
+  App Analytics: Tracing without Limits™
   (?:github|Github): GitHub
   (?:kubernetes|k8s|K8s|K8S): Kubernetes
   (?:Mapreduce|mapreduce|Map reduce|Map Reduce): MapReduce
   memcached: Memcached
   (?:netflow|Netflow): NetFlow
+  'Network Performance Monitoring': Cloud Network Monitoring
+  'NPM': CNM
   (?:nginx|Nginx): NGINX
   (?:node.js|nodeJS|NodeJS|node.JS|Node.JS): Node.js
   (?:pagerduty|pager duty|Pagerduty|Pager duty): PagerDuty
   prometheus: Prometheus
   (?:sql|Sql): SQL
   (?:statsd|statsD|Statsd): StatsD
+  Synthetics: Synthetic Monitoring
+  Trace Search and Analytics: Tracing without Limits™
   (?:unix|Unix): UNIX
