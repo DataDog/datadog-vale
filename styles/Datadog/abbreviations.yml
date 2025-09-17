@@ -1,3 +1,4 @@
+# This file is used to lint abbreviations that are common across all languages.
 extends: substitution
 message: "Use abbreviations for common industry terms: '%s' instead of '%s'."
 link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#abbreviations"

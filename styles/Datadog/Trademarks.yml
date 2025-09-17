@@ -1,3 +1,4 @@
+# This file is used to lint trademarks.
 extends: existence
 message: Missing ™ on phrase '%s'
 link: https://www.datadoghq.com

@@ -1,3 +1,4 @@
+# This file is used to lint vague text in links.
 extends: substitution
 message: "Avoid vague text in links like '%s' unless you can pair it with more descriptive text."
 link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#links'
