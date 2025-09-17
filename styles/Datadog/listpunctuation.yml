@@ -1,0 +1,28 @@
+# Rule 1: Detect list items without ending punctuation
+# This helps identify when list items might need periods for consistency
+extends: existence
+message: "List item without ending punctuation. Consider adding a period if other items in the list have periods."
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#lists"
+level: suggestion
+scope: raw
+ignorecase: false
+tokens:
+  # Match bulleted list items that don't end with punctuation
+  - '^(?:\s*)(?:[\•\-\*\+])\s+[^.!?]*[a-zA-Z0-9)]\s*$'
+  # Match numbered list items that don't end with punctuation
+  - '^(?:\s*)(?:\d+\.)\s+[^.!?]*[a-zA-Z0-9)]\s*$'
+
+---
+# Rule 2: Detect list items with ending punctuation
+# This helps identify when list items might not need periods for consistency
+extends: existence
+message: "List item with ending punctuation. Consider removing the period if other items in the list don't have periods."
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#lists"
+level: suggestion
+scope: raw
+ignorecase: false
+tokens:
+  # Match bulleted list items that end with punctuation
+  - '^(?:\s*)(?:[\•\-\*\+])\s+[^.!?]*[.!?]\s*$'
+  # Match numbered list items that end with punctuation
+  - '^(?:\s*)(?:\d+\.)\s+[^.!?]*[.!?]\s*$'
