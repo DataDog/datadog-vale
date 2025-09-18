@@ -84,13 +84,14 @@ exceptions:
   - Cloud SIEM
   - Cloud SIEM Investigator
   - Cloud Workload Security
-  - CloudCraft
+  - Cloudcraft
   - CloudFormation
   - CloudPrem
   - CloudSQL
   - CloudTrail
   - CloudWatch
   - Cluster Agent
+  - Code Coverage
   - Computational Networks
   - Container Image Trends
   - Content Anomaly Detection
@@ -112,7 +113,9 @@ exceptions:
   - Datadog
   - DatadogMetric
   - Datadog Agent Manager
-  - Datadog Distribution of the OTel Collector
+  - Datadog Distribution of OpenTelemetry Collector
+  - DDOT Collector
+  - Datadog Distribution of OTel Collector
   - Datadog for Government
   - Datadog Forwarder
   - Datadog Lambda Extension
@@ -124,6 +127,7 @@ exceptions:
   - Datastore
   - DDSQL Editor
   - Debian
+  - Deployment Gates
   - Detection Rules
   - DNS Monitoring
   - Docker
@@ -132,6 +136,7 @@ exceptions:
   - Dockerfile
   - DogStatsD
   - Domain Allowlist
+  - DORA Metrics
   - Dynamic Instrumentation
   - ECS Explorer
   - Element Inspector
@@ -231,7 +236,6 @@ exceptions:
   - Mesos Slave Integration
   - Metrics Explorer
   - Metrics without Limits
-  - Mobile Monitoring
   - Mobile App Testing
   - Mobile Real User Monitoring
   - Mobile Session Replay
@@ -244,7 +248,6 @@ exceptions:
   - Network Address Translation
   - Network Device Monitoring
   - Network Path
-  - Network Performance Monitoring
   - New Relic
   - NGINX Plus
   - NixOS
@@ -277,6 +280,7 @@ exceptions:
   - Postgres
   - PostgreSQL
   - PowerDNS
+  - PR Gates
   - Proactive App Recommendations
   - Product Analytics
   - Prometheus
