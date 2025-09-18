@@ -13,7 +13,7 @@ nonword: true
 # Logging without Limits\*
 # Logging without Limits™
 tokens:
-  - '(?<!\*)Logging without Limits(?!\s*(\™|\\\*|\*))'
-  - '(?<!\*)Tracing without Limits(?!\s*(\™|\\\*|\*))'
-  - '(?<!\*)Metrics without Limits(?!\s*(\™|\\\*|\*))'
-  - '(?<!\*)Log Rehydration(?!\s*(\™|\\\*|\*))'
+  - '(?<!\*)Logging without Limits(?!\s*(™|\\\*|\*))'
+  - '(?<!\*)Tracing without Limits(?!\s*(™|\\\*|\*))'
+  - '(?<!\*)Metrics without Limits(?!\s*(™|\\\*|\*))'
+  - '(?<!\*)Log Rehydration(?!\s*(™|\\\*|\*))'

@@ -12,32 +12,53 @@ swap:
   Availability Zones: availability zones
   boolean: Boolean
   booleans: Booleans
-  Datadog agent: Datadog Agent
-  (?:Dev/?ops|dev/?ops|Dev/Ops): DevOps|DevSecOps
+  Browser Test: browser test
   Distributed Tracing: distributed tracing
   e-?book: eBook
   e-?books: eBooks
+  'e(?:\s|-)?[Cc]ommerce': ecommerce
   event (?:stream|streem): Event Stream
+  golden paths: Golden Paths
   (?:Heat-?[Mm]ap): heat map
   (?:Heat-?[Mm]aps): heat maps
   (?:Host-?[Mm]ap): host map
   (?:Host-?[Mm]aps): host maps
   Internet: internet
+  (?:i/?-?o|I-?O): I/O
+  (?:i/?ops|I/OPS): IOPS
+  Mean Time [Tt]o Acknowledge: mean time to acknowledge
+  Mean Time [Tt]o Detect: mean time to detect
+  Mean Time [Tt]o Detection: mean time to detection
+  Mean Time [Tt]o Resolve: mean time to resolve
+  Mean Time [Tt]o Resolution: mean time to resolution
+  memcached: Memcached
   Once: After
+  Performance Schema: performance schema
+  Security Signal: security signal
+  Shared Responsibility Model: shared responsibility model
+  Sys Schema: sys schema
+  '\\*NIX': Unix-like
   'X-axis': x-axis
   'Y-axis': y-axis
 
   # proper nouns
   App Analytics: Tracing without Limits™
+  (?:DataDog|datadog): Datadog
+  Datadog agent: Datadog Agent
+  (?:Dev/?ops|dev/?ops|Dev/Ops): DevOps|DevSecOps
+  (?:Dogstatsd|DogstatsD|DogStatsd): DogStatsD
   (?:github|Github): GitHub
+  Google Cloud Platform: Google Cloud
+  (?:JIRA|jira): Jira
   (?:kubernetes|k8s|K8s|K8S): Kubernetes
   (?:Mapreduce|mapreduce|Map reduce|Map Reduce): MapReduce
   memcached: Memcached
+  Multistep API Test: multistep API test
   (?:netflow|Netflow): NetFlow
   'Network Performance Monitoring': Cloud Network Monitoring
   'NPM': CNM
   (?:nginx|Nginx): NGINX
-  (?:node.js|nodeJS|NodeJS|node.JS|Node.JS): Node.js
+  (?:node.js|nodeJS|NodeJS|node.JS|Node.JS|Node): Node.js
   (?:pagerduty|pager duty|Pagerduty|Pager duty): PagerDuty
   prometheus: Prometheus
   (?:sql|Sql): SQL
