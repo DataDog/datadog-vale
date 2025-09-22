@@ -1,0 +1,8 @@
+extends: substitution
+message: Consider using '%s' instead of '%s'
+level: warning
+ignorecase: true
+# swap maps tokens in form of bad: good
+swap:
+  'command line interface': CLI
+  'login to': 'log in to'
