@@ -17,6 +17,7 @@ swap:
   'back(?:\s|-)end': backend
   'back(?:\s|-)ends': backends
   bear in mind: keep in mind
+  'best(?:\s|-)in(?:\s|-)class': leading|top|excellent
   boolean: Boolean
   booleans: Booleans
   cheat sheet: cheatsheet
@@ -66,6 +67,7 @@ swap:
   (?:heat-?maps|Heat Maps): heat maps
   (?:host-?map|Host Map): host map
   (?:host-?maps|Host Maps): host maps
+  holistic: complete|comprehensive|integrated
   hone in: home in
   hones in: homes in
   honing in: homing in
@@ -85,6 +87,7 @@ swap:
   keep in mind: consider
   left up to: determined by
   let's assume: assuming|for example, if
+  leverage: use|apply|take advantage of
   load-?balancing: load balancing
   machine-?learning: machine learning
   'micro(?:\s|-)service': microservice
@@ -109,6 +112,8 @@ swap:
   single pane of glass: single view|single place|single page
   slice and dice: filter and group
   stand for: represent|mean
+  'state(?:\s|-)of(?:\s|-)the(?:\s|-)art': modern|current|advanced
+  streamline: simplify|improve|optimize
   Synthetics: Synthetic Monitoring
   reenable: re-enable
   'run(?:\s|-)time': runtime
@@ -122,6 +127,7 @@ swap:
   Trace Search and Analytics: Tracing without Limits™
   turnkey: ready to use
   under the hood: ''
+  unlock: enable|provide|give access to
   utilize: use
   very: ''
   via: with|through
