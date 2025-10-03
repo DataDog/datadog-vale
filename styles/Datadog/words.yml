@@ -17,7 +17,7 @@ swap:
   'back(?:\s|-)end': backend
   'back(?:\s|-)ends': backends
   bear in mind: keep in mind
-  best in class: leading|top|excellent
+  'best(?:\s|-)in(?:\s|-)class': leading|top|excellent
   boolean: Boolean
   booleans: Booleans
   cheat sheet: cheatsheet
@@ -112,7 +112,7 @@ swap:
   single pane of glass: single view|single place|single page
   slice and dice: filter and group
   stand for: represent|mean
-  state of the art: modern|current|advanced
+  'state(?:\s|-)of(?:\s|-)the(?:\s|-)art': modern|current|advanced
   streamline: simplify|improve|optimize
   Synthetics: Synthetic Monitoring
   reenable: re-enable
