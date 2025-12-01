@@ -6,6 +6,7 @@ level: warning
 scope: heading
 match: $sentence
 exceptions:
+  - '[A-Z]{2,6}'
   - Access Control
   - Access Insights
   - Action Interface
