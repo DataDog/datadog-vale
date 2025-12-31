@@ -31,7 +31,6 @@ swap:
   Mean Time [Tt]o Detection: mean time to detection
   Mean Time [Tt]o Resolve: mean time to resolve
   Mean Time [Tt]o Resolution: mean time to resolution
-  memcached: Memcached
   Multistep API Test: multistep API test
   Once: After
   Performance Schema: performance schema

@@ -27,10 +27,6 @@ swap:
   create a new: create a|create an
   culprit: cause
   data are: data is
-  'data(?:\s|-)point': datapoint
-  'data(?:\s|-)points': datapoints
-  'data(?:\s|-)set': dataset
-  'data(?:\s|-)sets': datasets
   data-?center: data center
   data-?centers: data centers
   'Datadog (?:app|application)': Datadog|Datadog site
