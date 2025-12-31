@@ -106,7 +106,7 @@ swap:
   multiline: multi-line
   multitier: multi-tier
   Note that: "**Note**:"
-  (?:obvious|obviously): ''
+  'obvious(ly)?': ''
   off(?:\s|-)line: offline
   off(?:\s|-)board: offboard
   on(?:\s|-)board: onboard
