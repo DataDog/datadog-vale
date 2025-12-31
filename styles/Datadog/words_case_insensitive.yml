@@ -15,14 +15,12 @@ swap:
   'auto(?:\s|-)complete': autocomplete
   'auto(?:\s|-)completion': autocompletion
   'auto(?:\s|-)scale': autoscale
-  '(?<!AWS |Amazon )auto(?:\s|-)scaling': autoscaling
+  'auto(?:\s|-)scaling': autoscaling
   'back(?:\s|-)end': backend
   'back(?:\s|-)ends': backends
-  baked in: ''
+  baked(?:\s|-)in: ''
   bear in mind: keep in mind
   'best(?:\s|-)in(?:\s|-)class': leading|top|excellent
-  boolean: Boolean
-  booleans: Booleans
   cheat sheet: cheatsheet
   code base: codebase
   command line interface: command-line interface
@@ -92,7 +90,6 @@ swap:
   infrastructural: ''
   install command: installation command
   just: ''
-  K8s: Kubernetes
   keep in mind: consider
   key/value: key-value|key:value
   left up to: determined by
@@ -119,8 +116,11 @@ swap:
   on(?:\s|-)board: onboard
   on(?:\s|-)premise: on-premises|on-prem
   on the fly: real-time|in real time
+  once you: after you
+  once the: after the
   open-?source: open source
   over(?:\s|-)provision: overprovision
+  over(?:\s|-)provisioned: overprovisioned
   page view: pageview
   page views: pageviews
   percent: '%'
@@ -146,7 +146,6 @@ swap:
   service(?:\s|-)level(?:\s|-)objectives: service level objectives
   sign into: sign in to
   'state(?:\s|-)of(?:\s|-)the(?:\s|-)art': modern|current|advanced
-  Synthetics: Synthetic Monitoring
   simple|simply: ''
   single pane of glass: unified view|single view|single place|single page
   slice and dice: filter and group

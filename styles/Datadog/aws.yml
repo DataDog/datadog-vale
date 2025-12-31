@@ -14,7 +14,7 @@ swap:
   AWS AppStream: Amazon AppStream
   Amazon AppSync: AWS AppSync
   AWS Athena: Amazon Athena
-  (Amazon|AWS) (Auto Scaling|Autoscaling|Auto-scaling): AWS Auto Scaling
+  '(Amazon|AWS) Auto(?:\s|-)(S|s)caling': AWS Auto Scaling
   Amazon Backup: AWS Backup
   AWS Bedrock: Amazon Bedrock
   Amazon Certificate Manager: AWS Certificate Manager
