@@ -1,0 +1,67 @@
+# This file is used to lint words and phrases that are case-sensitive.
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#words-and-phrases"
+ignorecase: false
+level: warning
+action:
+  name: replace
+swap:
+  # bad: good
+  Availability Zone: availability zone
+  Availability Zones: availability zones
+  boolean: Boolean
+  booleans: Booleans
+  Browser Test: browser test
+  Distributed Tracing: distributed tracing
+  e-?book: eBook
+  e-?books: eBooks
+  'e(?:\s|-)?[Cc]ommerce': ecommerce
+  Event Stream: event stream
+  (G|g)olden paths: Golden Paths
+  (?:Heat-?[Mm]ap): heat map
+  (?:Heat-?[Mm]aps): heat maps
+  (?:Host-?[Mm]ap): host map
+  (?:Host-?[Mm]aps): host maps
+  Internet: internet
+  '[Ii][-/]?[Oo]': I/O
+  '[Ii]/?(OPS|ops)': IOPS
+  Mean Time [Tt]o Acknowledge: mean time to acknowledge
+  Mean Time [Tt]o Detect: mean time to detect
+  Mean Time [Tt]o Detection: mean time to detection
+  Mean Time [Tt]o Resolve: mean time to resolve
+  Mean Time [Tt]o Resolution: mean time to resolution
+  Multistep API Test: multistep API test
+  Once: After
+  Performance Schema: performance schema
+  Security Signal: security signal
+  Shared Responsibility Model: shared responsibility model
+  Sys Schema: sys schema
+  'X-axis': x-axis
+  'Y-axis': y-axis
+
+  # proper nouns
+  App Analytics: Tracing without Limits™
+  '[Dd]ata[Dd]og': Datadog
+  Datadog agent: Datadog Agent
+  '[Dd]ev ?[Oo]ps': DevOps|DevSecOps
+  '[Dd]og[Ss]tats[Dd]': DogStatsD
+  '[Gg]it[Hh]ub': GitHub
+  Google Cloud Platform: Google Cloud
+  JIRA|jira: Jira
+  (kubernetes|[Kk]8[Ss]): Kubernetes
+  '[Mm]ap ?[Rr]educe': MapReduce
+  memcached: Memcached
+  '[Nn]et ?[Ff]low': NetFlow
+  'Network Performance Monitoring': Cloud Network Monitoring
+  'NPM': CNM
+  nginx|Nginx: NGINX
+  '[Nn]ode.?[Jj][Ss]|Node': Node.js
+  '[Pp]ager ?[Dd]uty': PagerDuty
+  prometheus: Prometheus
+  (?:sql|Sql): SQL
+  '[Ss]tats[Dd]': StatsD
+  Synthetics: Synthetic Monitoring
+  Trace Search and Analytics: Tracing without Limits™
+  (?:unix|Unix): UNIX
+  '\\*NIX': Unix-like
