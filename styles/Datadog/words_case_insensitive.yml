@@ -20,6 +20,9 @@ swap:
   'back(?:\s|-)ends': backends
   baked in: ''
   bear in mind: keep in mind
+  'best(?:\s|-)in(?:\s|-)class': leading|top|excellent
+  boolean: Boolean
+  booleans: Booleans
   cheat sheet: cheatsheet
   code base: codebase
   command line interface: command-line interface
@@ -75,6 +78,7 @@ swap:
   (?:heat-?maps): heat maps
   (?:host-?map): host map
   (?:host-?maps): host maps
+  holistic: complete|comprehensive|integrated
   hone in: home in
   hones in: homes in
   honing in: homing in
@@ -93,7 +97,7 @@ swap:
   key/value: key-value|key:value
   left up to: determined by
   let's assume: assuming|for example, if
-  leverage: use
+  leverage: use|apply|take advantage of
   lifecycle: life cycle
   lifecycles: life cycles
   load-?balanced: load balanced
@@ -128,9 +132,9 @@ swap:
   pre(?:\s|-)connect: preconnect
   quick|quickly: ''
   real-user monitoring: real user monitoring
-  reenable: re-enable
   'run(?:\s|-)time': runtime
   refer to|visit: see|read|follow
+  reenable: re-enable
   'screen(?:\s|-)board': screenboard
   seamless|seamlessly: ''
   secondly: second
@@ -141,11 +145,13 @@ swap:
   service(?:\s|-)level(?:\s|-)objective: service level objective
   service(?:\s|-)level(?:\s|-)objectives: service level objectives
   sign into: sign in to
+  'state(?:\s|-)of(?:\s|-)the(?:\s|-)art': modern|current|advanced
+  Synthetics: Synthetic Monitoring
   simple|simply: ''
   single pane of glass: unified view|single view|single place|single page
   slice and dice: filter and group
   stand for: represent|mean
-  streamline|streamlined|streamlining: ''
+  streamline|streamlined|streamlining: simplify|improve|optimize
   thirdly: third
   time board: timeboard
   'time(?:\s|-)series': timeseries
@@ -160,6 +166,7 @@ swap:
   under the hood: ''
   use-?case: use case
   user-experience monitoring: user experience monitoring
+  unlock: enable|provide|give access to
   utilize: use
   very: ''
   via: with|through
