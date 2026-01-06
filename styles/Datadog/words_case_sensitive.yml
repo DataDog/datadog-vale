@@ -18,14 +18,14 @@ swap:
   e-?books: eBooks
   'e(?:\s|-)?[Cc]ommerce': ecommerce
   Event Stream: event stream
-  (G|g)olden paths: Golden Paths
+  (?:G|g)olden paths: Golden Paths
   (?:Heat-?[Mm]ap): heat map
   (?:Heat-?[Mm]aps): heat maps
   (?:Host-?[Mm]ap): host map
   (?:Host-?[Mm]aps): host maps
   Internet: internet
   '[Ii][-/]?[Oo]': I/O
-  '[Ii]/?(OPS|ops)': IOPS
+  '[Ii]/?(?:OPS|ops)': IOPS
   Mean Time [Tt]o Acknowledge: mean time to acknowledge
   Mean Time [Tt]o Detect: mean time to detect
   Mean Time [Tt]o Detection: mean time to detection
@@ -49,7 +49,7 @@ swap:
   '[Gg]it[Hh]ub': GitHub
   Google Cloud Platform: Google Cloud
   JIRA|jira: Jira
-  (kubernetes|[Kk]8[Ss]): Kubernetes
+  (?:kubernetes|[Kk]8[Ss]): Kubernetes
   '[Mm]ap ?[Rr]educe': MapReduce
   memcached: Memcached
   '[Nn]et ?[Ff]low': NetFlow
