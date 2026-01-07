@@ -7,8 +7,8 @@ level: warning
 action:
   name: edit
   params:
-  - regex
-  - '(\n+\s*)[a-z]\. ' # pattern
-  - '$11. ' # replace
+    - regex
+    - '(\n+\s*)[a-z]\. ' # pattern
+    - '$11. ' # replace
 tokens:
   - '(?<=\n\s*)([a-z]\.) '
