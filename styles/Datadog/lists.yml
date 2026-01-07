@@ -1,0 +1,14 @@
+# This file is used to lint lists.
+extends: existence
+message: "For ordered lists at all levels, use numbers (1.) instead of letters (a.)."
+scope: raw
+nonword: true
+level: warning
+action:
+  name: edit
+  params:
+    - regex
+    - '(\n+\s*)[a-z]\. ' # pattern
+    - '$11. ' # replace
+tokens:
+  - '(?<=\n\s*)([a-z]\.) '
