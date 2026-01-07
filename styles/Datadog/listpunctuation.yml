@@ -1,0 +1,11 @@
+extends: existence
+message: "List items should have consistent punctuation."
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#lists"
+level: warning
+scope: raw
+ignorecase: true
+tokens:
+  # Match bulleted list items starting with -
+  - '^\s*-\s+.*$'
+  # Match numbered list items
+  - '^\s*\d+\.\s+.*$'
