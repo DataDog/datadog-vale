@@ -2,6 +2,8 @@
 
 First of all, thanks for contributing! This document provides some basic guidelines for contributing to this repository. To propose improvements, feel free to submit a pull request.
 
+The Documentation team adds style rules that address recurring issues of style or terminology in our Documentation repo. We are aiming for utility, not completeness.
+
 ## Opening issues
 
 GitHub issues are welcome, so feel free to open an issue about an existing style rule. Make sure to add enough details and examples to explain your use case clearly.
