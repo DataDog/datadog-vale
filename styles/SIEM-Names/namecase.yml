@@ -31,11 +31,12 @@ exceptions:
   - Azure Active Directory
   - Azure AD Identity Protection
   - Azure AD Privileged Identity Management
+  - Check Point Quantum Firewall
   - CloudTrail
   - Cloudflare
   - Cloudflare CASB Finding
   - Cloudflare L7 DDOS
-  - Crowdstrike Alerts
+  - CrowdStrike Alerts
   - Enterprise Organization
   - GitHub
   - GitHub Advanced Security
