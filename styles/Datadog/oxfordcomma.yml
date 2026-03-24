@@ -1,3 +1,4 @@
+# This file is used to lint the Oxford comma.
 extends: existence
 message: "Use the Oxford comma in '%s'."
 link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#commas"

@@ -1,6 +1,6 @@
 extends: capitalization
 message: Rule names should use sentence case
-level: error
+level: warning
 match: $sentence
 exceptions:
   - 1Password

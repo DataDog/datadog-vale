@@ -1,6 +1,6 @@
 extends: existence
 message: Rule names should avoid weak works like '%s'
-level: error
+level: warning
 ignorecase: true
 link: https://developers.google.com/tech-writing/one/clear-sentences
 tokens:
