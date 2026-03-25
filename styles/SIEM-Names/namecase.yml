@@ -56,6 +56,7 @@ exceptions:
   - Impossible Travel Auth0
   - IoC
   - Jamf Protect
+  - JumpCloud
   - Microsoft 365 Application Impersonation
   - Microsoft 365 Default or Anonymous
   - Microsoft 365 E-Discovery
