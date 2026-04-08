@@ -68,8 +68,8 @@ swap:
   'front(?:\s|-)end': frontend
   (?:health-?check): health check
   (?:health-?checks): health checks
-  (?:heat-?map): heat map
-  (?:heat-?maps): heat maps
+  'heat(?:\s|-)map': heatmap
+  'heat(?:\s|-)maps': heatmaps
   (?:host-?map): host map
   (?:host-?maps): host maps
   holistic: complete|comprehensive|integrated
