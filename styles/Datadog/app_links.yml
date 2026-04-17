@@ -1,0 +1,14 @@
+# This file is used to lint links to internal Datadog environments that are not accessible to customers.
+extends: substitution
+message: "This looks like a private app link. Use '%s' instead of '%s'."
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#links"
+ignorecase: true
+level: error
+scope: raw
+action:
+  name: replace
+swap:
+  # Matches known internal subdomain patterns on the product domain
+  'https?://(?:dd[a-zA-Z0-9\-]*|demo)\.datadoghq\.com': https://app.datadoghq.com
+  # Matches the internal zero-substitution domain variant
+  'https?://(?:[a-zA-Z0-9][a-zA-Z0-9\-]*\.)?datad0g\.com': https://app.datadoghq.com
