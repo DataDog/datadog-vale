@@ -12,3 +12,5 @@ swap:
   'https?://(?:dd[a-zA-Z0-9\-]*|demo)\.datadoghq\.com': https://app.datadoghq.com
   # Matches the internal zero-substitution domain variant
   'https?://(?:[a-zA-Z0-9][a-zA-Z0-9\-]*\.)?datad0g\.com': https://app.datadoghq.com
+  # Matches app.datadog.com (missing 'hq')
+  'https?://app\.datadog\.com': https://app.datadoghq.com
