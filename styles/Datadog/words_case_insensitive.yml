@@ -155,6 +155,8 @@ swap:
   time-?series: timeseries
   top-?list: top list
   towards: toward
+  tracing libraries: Datadog SDKs|SDKs
+  tracing library: Datadog SDK|SDK
   'trade(?:\s|-)off': trade-off
   turn(?:\s|-)key: turnkey|ready to use
   under(?:\s|-)provision: underprovision
