@@ -1,0 +1,8 @@
+# This file is used to flag the `id-for-anchoring` placeholder left over from the `collapse-content` shortcode template.
+extends: existence
+message: "Replace the 'id-for-anchoring' placeholder with a unique, descriptive ID for this collapse-content section so anchor links work."
+link: "https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md"
+nonword: true
+level: error
+tokens:
+  - 'id-for-anchoring'
