@@ -8,6 +8,8 @@ exceptions:
   - Autoscaling Group
   - Amazon EC2 Instance
   - Amazon S3
+  - Anthropic
+  - API
   - API calls
   - Auth0 Attack Protection
   - Auth0 Breached Password Detection
@@ -32,11 +34,14 @@ exceptions:
   - Azure AD Identity Protection
   - Azure AD Privileged Identity Management
   - Check Point Quantum Firewall
+  - Claude
+  - CLI
   - CloudTrail
   - Cloudflare
   - Cloudflare CASB Finding
   - Cloudflare L7 DDOS
   - CrowdStrike Alerts
+  - DNS
   - Enterprise Organization
   - GitHub
   - GitHub Advanced Security
@@ -56,8 +61,10 @@ exceptions:
   - IdP configuration changed
   - Impossible Travel Auth0
   - IoC
+  - IP
   - Jamf Protect
   - JumpCloud
+  - MFA
   - Microsoft 365 Application Impersonation
   - Microsoft 365 Default or Anonymous
   - Microsoft 365 E-Discovery
@@ -73,9 +80,12 @@ exceptions:
   - Okta
   - Okta Identity Provider
   - Palo Alto Networks Firewall
+  - RBAC
   - RDS Snapshot
   - Scout Suite
   - Sqreen
+  - SSO
   - Tor
   - TruffleHog
+  - URL
   - Zendesk Automatic Redaction
