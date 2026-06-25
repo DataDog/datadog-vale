@@ -57,6 +57,7 @@ swap:
   'NPM': CNM
   nginx|Nginx: NGINX
   '[Nn]ode.?[Jj][Ss]|Node': Node.js
+  '[Oo]ps[Gg]enie': Opsgenie
   '[Pp]ager ?[Dd]uty': PagerDuty
   prometheus: Prometheus
   (?:sql|Sql): SQL

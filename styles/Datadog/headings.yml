@@ -270,7 +270,7 @@ exceptions:
   - OpenTelemetry
   - OpenTracing
   - OpenVPN
-  - OpsGenie
+  - Opsgenie
   - OpsWorks
   - Oracle Instant Client
   - Orchestrion
