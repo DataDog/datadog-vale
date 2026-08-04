@@ -37,7 +37,7 @@ swap:
   '\bTransport Layer Security\b': TLS
   '\bUser Interface\b': UI
   '\bUniform Resource Locator\b': URL
-  '\bVirtual Machine\b': VM
+  '(?<!Java )\bVirtual Machine\b': VM
   '\bVirtual Private Network\b': VPN
   '\bExtensible Markup Language\b': XML
 
